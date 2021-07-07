@@ -28,11 +28,11 @@ Press <enter> to keep the current choice[*], or type selection number:
 ### INSTALL AND UNINSTALL
 ```
 INSTALL
-sudo apt-get install php
+$sudo apt-get install php
 
 UNINSTALL
-sudo apt-get remove –purge php*
-sudo apt-get purge php*
-sudo apt-get autoremove
-sudo apt-get autoclean
+$sudo apt-get remove –purge php*
+$sudo apt-get purge php*
+$sudo apt-get autoremove
+$sudo apt-get autoclean
 ```
