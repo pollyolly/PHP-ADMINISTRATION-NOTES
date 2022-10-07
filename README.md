@@ -36,6 +36,11 @@ $sudo apt-get purge php*
 $sudo apt-get autoremove
 $sudo apt-get autoclean
 ```
+### CHECK PHP INI PATH
+```
+$php --ini
+```
+
 ### INSTALL PHP 7.2 AND MYSQL 5.7 IN UBUNTU20
 ```
 https://www.rosehosting.com/blog/how-to-install-php-7-2-on-ubuntu-16-04/
