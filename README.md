@@ -5,13 +5,13 @@ $add-apt-repository ppa:ondrej/php
 $sudo apt install php7.2
 ```
 ### Switch to PHP version
-```
+```vim
 $sudo update-alternatives --config php
 $sudo a2dismod php5.6
 $sudo a2enmod php7.2
 ```
 ### Switching between the version of PHP (webserver and command line)
-```
+```vim
 $ sudo update-alternatives --config php
 output:
 There are 4 choices for the alternative php (providing /usr/bin/php).
@@ -26,7 +26,7 @@ There are 4 choices for the alternative php (providing /usr/bin/php).
 Press <enter> to keep the current choice[*], or type selection number:
 ```
 ### INSTALL AND UNINSTALL
-```
+```vim
 INSTALL
 $sudo apt-get install php
 
@@ -37,7 +37,7 @@ $sudo apt-get autoremove
 $sudo apt-get autoclean
 ```
 ### CHECK PHP INI PATH
-```
+```vim
 $php --ini
 ```
 
