@@ -57,6 +57,7 @@ fastcgi_pass unix:/run/php/php8.1-fpm.sock;
 ### PHP 8.1
 ```
 https://www.vps-mart.com/blog/how-to-install-php-8_1-for-nginx-on-ubuntu-20_04
+https://www.digitalocean.com/community/tutorials/how-to-install-php-8-1-and-set-up-a-local-development-environment-on-ubuntu-22-04
 ```
 ### INSTALL PHP 7.2 AND MYSQL 5.7 IN UBUNTU20
 ```
