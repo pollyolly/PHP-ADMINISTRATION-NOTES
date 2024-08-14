@@ -1,6 +1,9 @@
 ### Install Multiple PHP
 ```vim
 If already have php, add the repo below then install a different version.
+```
+```vim
+$sudo apt update
 $add-apt-repository ppa:ondrej/php
 $sudo apt install php7.2
 ```
