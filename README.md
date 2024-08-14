@@ -44,6 +44,10 @@ $sudo apt-get autoclean
 ```vim
 $php --ini
 ```
+### Install Module
+```
+sudo apt-get install php8.1-package_name
+```
 ### NGINX
 ```
 Update nginx from 7.4 to 8.1
