@@ -6,6 +6,7 @@ If already have php, add the repo below then install a different version.
 $sudo apt update
 $add-apt-repository ppa:ondrej/php
 $sudo apt install php7.2
+$sudo apt install php7.2-fpm
 ```
 ### Switch to PHP version
 ```vim
@@ -43,7 +44,16 @@ $sudo apt-get autoclean
 ```vim
 $php --ini
 ```
+### NGINX
+```
+Update nginx from 7.4 to 8.1
 
+fastcgi_pass unix:/run/php/php8.1-fpm.sock;
+```
+### PHP 8.1
+```
+https://www.vps-mart.com/blog/how-to-install-php-8_1-for-nginx-on-ubuntu-20_04
+```
 ### INSTALL PHP 7.2 AND MYSQL 5.7 IN UBUNTU20
 ```
 https://www.rosehosting.com/blog/how-to-install-php-7-2-on-ubuntu-16-04/
