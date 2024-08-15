@@ -8,7 +8,7 @@ $add-apt-repository ppa:ondrej/php
 $sudo apt install php8.3
 $sudo apt install php8.3-fpm
 
-$sudo apt install php8.3-dom php8.3-gd php8.3-xml php8.3-simplexml php8.3-mbstring
+$sudo apt install php8.3-dom php8.3-gd php8.3-xml php8.3-simplexml php8.3-mbstring php8.3-mysql
 ```
 ### Switch to PHP version
 ```vim
