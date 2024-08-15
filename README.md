@@ -5,8 +5,10 @@ If already have php, add the repo below then install a different version.
 ```vim
 $sudo apt update
 $add-apt-repository ppa:ondrej/php
-$sudo apt install php7.2
-$sudo apt install php7.2-fpm
+$sudo apt install php8.3
+$sudo apt install php8.3-fpm
+
+$sudo apt install php8.3-dom php8.3-gd php8.3-xml php8.3-simplexml php8.3-mbstring
 ```
 ### Switch to PHP version
 ```vim
