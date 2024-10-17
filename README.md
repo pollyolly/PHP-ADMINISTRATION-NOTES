@@ -4,9 +4,9 @@ If already have php, add the repo below then install a different version.
 $sudo apt update
 $add-apt-repository ppa:ondrej/php
 ```
---no-install-recommends will install PHP without other packages like apache web server
-```
-$sudo apt install --no-install-recommends php8.1
+--no-install-recommends flag will install PHP without other packages like apache web server
+```vim
+$sudo apt install --no-install-recommends php8.3
 ```
 ```vim
 $sudo apt-get install -y php8.3-cli php8.3-mysql php8.3-fpm php8.3-common php8.3-zip php8.3-gd php8.3-mbstring php8.3-curl php8.3-xml php8.3-bcmath php8.3-dom
@@ -50,7 +50,7 @@ $sudo apt-get autoclean
 $php --ini
 ```
 ### Install Module
-```
+```vim
 $sudo apt-get install php8.1-package_name
 ```
 ### NGINX
