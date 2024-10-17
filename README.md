@@ -1,14 +1,10 @@
 ### Install Multiple PHP
-```vim
 If already have php, add the repo below then install a different version.
-```
 ```vim
 $sudo apt update
 $add-apt-repository ppa:ondrej/php
 $sudo apt install php8.3
-$sudo apt install php8.3-fpm
-
-$sudo apt install php8.3-dom php8.3-gd php8.3-xml php8.3-simplexml php8.3-mbstring php8.3-mysql
+$sudo apt-get install -y php8.3-cli php8.3-mysql php8.3-fpm php8.3-common php8.3-zip php8.3-gd php8.3-mbstring php8.3-curl php8.3-xml php8.3-bcmath php8.3-dom
 ```
 ### Switch to PHP version
 ```vim
@@ -19,7 +15,8 @@ $sudo a2enmod php7.2
 ### Switching between the version of PHP (webserver and command line)
 ```vim
 $ sudo update-alternatives --config php
-output:
+```
+```vim
 There are 4 choices for the alternative php (providing /usr/bin/php).
 
   Selection    Path             Priority   Status
@@ -32,11 +29,12 @@ There are 4 choices for the alternative php (providing /usr/bin/php).
 Press <enter> to keep the current choice[*], or type selection number:
 ```
 ### INSTALL AND UNINSTALL
+Install
 ```vim
-INSTALL
 $sudo apt-get install php
-
-UNINSTALL
+```
+Uninstall
+```vim
 $sudo apt-get remove –purge php*
 $sudo apt-get purge php*
 $sudo apt-get autoremove
@@ -48,12 +46,11 @@ $php --ini
 ```
 ### Install Module
 ```
-sudo apt-get install php8.1-package_name
+$sudo apt-get install php8.1-package_name
 ```
 ### NGINX
-```
 Update nginx from 7.4 to 8.1
-
+```vim
 fastcgi_pass unix:/run/php/php8.1-fpm.sock;
 ```
 ### PHP 8.1
