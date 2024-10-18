@@ -36,7 +36,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 ### INSTALL AND UNINSTALL
 Install
 ```vim
-$sudo apt-get install php
+$sudo apt install --no-install-recommends php8.3
 ```
 Uninstall
 ```vim
