@@ -2,7 +2,7 @@
 If already have php, add the repo below then install a different version.
 ```vim
 $sudo apt update
-$add-apt-repository ppa:ondrej/php
+$add-apt-repository ppa:ondrej/php #Allow us to install multiple PHP version
 ```
 --no-install-recommends flag will install PHP without other packages like apache web server
 ```vim
